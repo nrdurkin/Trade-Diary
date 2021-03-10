@@ -9,6 +9,7 @@
     "dotenv": "^8.2.0",
     "dotenv-webpack": "^7.0.1",
     "express": "^4.17.1",
+    "less": "^4.1.1",
     "less-loader": "^8.0.0",
     "path": "^0.12.7",
     "vue": "^2.6.12",

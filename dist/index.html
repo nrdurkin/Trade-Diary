@@ -5,11 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trade Diary</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <style>
+        body{
+            padding:0px;
+            margin:0px;
+            font-family: 'Oxygen', sans-serif;
+        }
+        #app{
+            display: flex;
+            flex-direction: row;
+        }
+        .app-content{
+            width:1000px;
+            min-width:600px;
+        }
+        .app-spacer{
+            max-width:300px;
+            flex:1;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
-        <router-link to="/home">Go to Foo</router-link>
+        <div class='app-spacer'></div>
+        <div class='app-content'>
         <router-view></router-view>
+    </div>
+        <div class='app-spacer'></div>
     </div>
 </body>
 <script src = "bundle.js"></script>

@@ -1,5 +1,5 @@
 <template>
     <div>
-        Hello friend
+        <add-trade></add-trade>
     </div>
 </template>
