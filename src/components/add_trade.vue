@@ -11,7 +11,7 @@
             ></transaction>
         </div>
         <div class="transaction-summary">
-            Calendar Spread 4/23 - 5/1 280-290C
+            Vertical Spread 4/23 - 5/1 280-290C Cost $720 Sold $1864 Net $1144
         </div>
     </div>
 </template>
