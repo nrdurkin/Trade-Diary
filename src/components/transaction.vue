@@ -4,6 +4,7 @@
         <div class="date">{{ date }}</div>
         <div class="type">{{ type }}</div>
         <div class="strike">{{ strike | money }}</div>
+        <div>Expiry</div>
         <div class="price">{{ price | money }}</div>
         <div class="quantity">{{ quantity }}</div>
         <div class="total">{{ total | money }}</div>
